@@ -1,5 +1,5 @@
 # FxDndListView
-JavaFx 8 Drag and Drop ListView control
+JavaFx 8 Drag and Drop ListView control.
 
 DndListView extends FX control ListView with drag and drop functionality.
 
@@ -19,21 +19,21 @@ Simple dnd string list view
 
 Done
 
-As data, the component takes any object. In this case [Object] .toString () method is used to display data.
+As data, the component takes any object. In this case [Object].toString() method is used to display data.
 
 But if javafx.scene.Node is used as data, the node self will be rendered within ListCell.
 
 ![screenshot](snapshots/dndNodesList.png)
 
 
-You can customize the list with CSS, set source and accepted data format or expand the DndListView and override the appropriate methods.
+You can customize the list with CSS, set source and accepted data formats or expand the DndListView and override the appropriate methods.
 
 
 Example dndPanes shows usage interfaces DndSource and DndTarget.
 
 The component uses non-public API of JavaFx 8 and may not work with other versions of JavaFx.
 
-fxDdListView.jar contains binary and source of DndListView.
+fxDndListView.jar contains binary and source of DndListView.
 
 License: use it.
 
